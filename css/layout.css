@@ -1,0 +1,183 @@
+@charset "UTF=8";
+@font-face{
+	font-family: 'Cereal-Light';
+	src: url("../webfonts/AirbnbCereal-Light.ttf");
+}
+
+@font-face{
+	font-family: 'Cereal-Medium';
+	src: url("../webfonts/AirbnbCereal-Medium.ttf");
+}
+
+@font-face{
+	font-family: 'Cereal-Book';
+	src: url("../webfonts/AirbnbCereal-Book.ttf");
+}
+
+@font-face{
+	font-family: 'Cereal-Bold';
+	src: url("../webfonts/AirbnbCereal-Bold.ttf");
+}
+
+body{
+    font-family: "Cereal", sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    font-family: 'Cereal-Bold',sans-serif;
+    padding: 8px;
+    font-size: 16px;
+    color: #767676;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Cereal-Bold', sans-serif;
+}
+
+p{
+    font-family: 'Cereal-Light', sans-serif;
+    font-size: 16;
+    line-height: 32;
+}
+
+.content{        
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header{
+    width: 100vw;
+    min-height: 80px;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.header-logo{
+    width: 5vw;    
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.header-first{
+    display: flex;    
+    width: 65vw;
+    flex-direction: row;  
+    align-items: flex-start;
+}
+
+#search{
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+    height: 45px;
+    width: 30vw;
+}
+
+.header-second{
+    display: flex;
+    width: 35vw;
+    flex-direction: row;
+    align-items: flex-end;  
+    padding-right: 10px;  
+    justify-content: space-around;
+}
+
+.menu-item>p{
+    font-family:'Cereal-Medium', sans-serif;    
+    font-size: 14px;
+    line-height: 1px;
+    padding: 8px;
+    color: #484848;
+}
+
+.content-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center
+}
+
+.titulo{
+    margin-left: 8vw;
+}
+.titulo>h1{
+    color: #484848;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    height: auto;
+}
+
+.host{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;    
+    width: 250px;    
+    height: 270px;    
+    min-width: 20%;
+    max-width: 80%;
+    max-height: 100vw;
+}
+
+.host-img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.host-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.host-tipo{
+    font-family: 'Cereal-Medium', sans-serif;
+    color: #767676;
+    font-size: 12px;
+}
+
+.host-nome{
+    font-family: 'Cereal-Book', sans-serif;
+    color: #484848;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.host-preco{
+    font-family: 'Cereal-Light', sans-serif;
+    color: #767676;
+    font-size: 14px;
+}
+
+.inputIcon{
+    position: relative;
+}
+
+.inputIcon>i{
+    position: absolute;
+    left: 0;
+    top:8px;
+    padding: 8px 8px;
+    color: #767676;
+}
+
+.inputIcon>input{
+    padding-left: 40px;
+}
+
